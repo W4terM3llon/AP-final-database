@@ -1,0 +1,323 @@
+2023-01-15 09:39:16.66 Server      Microsoft SQL Server 2019 (RTM-CU18) (KB5017593) - 15.0.4261.1 (X64) 
+	Sep 12 2022 15:07:06 
+	Copyright (C) 2019 Microsoft Corporation
+	Developer Edition (64-bit) on Linux (Ubuntu 20.04.5 LTS) <X64>
+2023-01-15 09:39:16.66 Server      UTC adjustment: 0:00
+2023-01-15 09:39:16.66 Server      (c) Microsoft Corporation.
+2023-01-15 09:39:16.66 Server      All rights reserved.
+2023-01-15 09:39:16.67 Server      Server process ID is 400.
+2023-01-15 09:39:16.67 Server      Logging SQL Server messages in file '/var/opt/mssql/log/errorlog'.
+2023-01-15 09:39:16.67 Server      Registry startup parameters: 
+	 -d /var/opt/mssql/data/master.mdf
+	 -l /var/opt/mssql/data/mastlog.ldf
+	 -e /var/opt/mssql/log/errorlog
+2023-01-15 09:39:16.68 Server      SQL Server detected 1 sockets with 8 cores per socket and 16 logical processors per socket, 16 total logical processors; using 16 logical processors based on SQL Server licensing. This is an informational message; no user action is required.
+2023-01-15 09:39:16.68 Server      SQL Server is starting at normal priority base (=7). This is an informational message only. No user action is required.
+2023-01-15 09:39:16.68 Server      Detected 10191 MB of RAM. This is an informational message; no user action is required.
+2023-01-15 09:39:16.69 Server      Using conventional memory in the memory manager.
+2023-01-15 09:39:16.70 Server      Page exclusion bitmap is enabled.
+2023-01-15 09:39:16.75 Server      Buffer pool extension is not supported on Linux platform.
+2023-01-15 09:39:16.75 Server      Buffer Pool: Allocating 2097152 bytes for 1547141 hashPages.
+2023-01-15 09:39:16.83 Server      Buffer pool extension is already disabled. No action is necessary.
+2023-01-15 09:39:16.97 Server      Successfully initialized the TLS configuration. Allowed TLS protocol versions are ['1.0 1.1 1.2']. Allowed TLS ciphers are ['ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-AES128-SHA256:ECDHE-ECDSA-AES256-SHA384:ECDHE-ECDSA-AES256-SHA:ECDHE-ECDSA-AES128-SHA:AES256-GCM-SHA384:AES128-GCM-SHA256:AES256-SHA256:AES128-SHA256:AES256-SHA:AES128-SHA:!DHE-RSA-AES256-GCM-SHA384:!DHE-RSA-AES128-GCM-SHA256:!DHE-RSA-AES256-SHA:!DHE-RSA-AES128-SHA'].
+2023-01-15 09:39:16.99 Server      Query Store settings initialized with enabled = 1, 
+2023-01-15 09:39:17.00 Server      The maximum number of dedicated administrator connections for this instance is '1'
+2023-01-15 09:39:17.00 Server      Node configuration: node 0: CPU mask: 0x000000000000ffff:0 Active CPU mask: 0x000000000000ffff:0. This message provides a description of the NUMA configuration for this computer. This is an informational message only. No user action is required.
+2023-01-15 09:39:17.02 Server      Using dynamic lock allocation.  Initial allocation of 2500 Lock blocks and 5000 Lock Owner blocks per node.  This is an informational message only.  No user action is required.
+2023-01-15 09:39:17.02 Server      Lock partitioning is enabled.  This is an informational message only. No user action is required.
+2023-01-15 09:39:17.03 Server      In-Memory OLTP initialized on standard machine.
+2023-01-15 09:39:17.13 Server      [INFO] Created Extended Events session 'hkenginexesession'
+2023-01-15 09:39:17.13 Server      Database Instant File Initialization: enabled. For security and performance considerations see the topic 'Database Instant File Initialization' in SQL Server Books Online. This is an informational message only. No user action is required.
+2023-01-15 09:39:17.14 Server      Total Log Writer threads: 2. This is an informational message; no user action is required.
+2023-01-15 09:39:17.15 Server      CLR version v4.0.30319 loaded.
+2023-01-15 09:39:17.15 Server      clwb is selected for pmem flush operation.
+2023-01-15 09:39:17.16 Server      Software Usage Metrics is disabled.
+2023-01-15 09:39:17.19 spid9s      [1]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1.
+2023-01-15 09:39:17.19 spid9s      Starting up database 'master'.
+2023-01-15 09:39:17.49 Server      Common language runtime (CLR) functionality initialized.
+2023-01-15 09:39:17.66 spid9s      Resource governor reconfiguration succeeded.
+2023-01-15 09:39:17.66 spid9s      SQL Server Audit is starting the audits. This is an informational message. No user action is required.
+2023-01-15 09:39:17.66 spid9s      SQL Server Audit has started the audits. This is an informational message. No user action is required.
+2023-01-15 09:39:17.79 spid9s      SQL Trace ID 1 was started by login "sa".
+2023-01-15 09:39:17.80 spid9s      Server name is '77343b832b62'. This is an informational message only. No user action is required.
+2023-01-15 09:39:17.82 spid29s     [4]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1.
+2023-01-15 09:39:17.82 spid12s     [32767]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1.
+2023-01-15 09:39:17.82 spid30s     [5]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1.
+2023-01-15 09:39:17.82 spid29s     Starting up database 'msdb'.
+2023-01-15 09:39:17.83 spid31s     Always On: The availability replica manager is starting. This is an informational message only. No user action is required.
+2023-01-15 09:39:17.83 spid12s     Starting up database 'mssqlsystemresource'.
+2023-01-15 09:39:17.83 spid30s     Starting up database 'ServiceManagement'.
+2023-01-15 09:39:17.83 spid31s     Always On: The availability replica manager is waiting for the instance of SQL Server to allow client connections. This is an informational message only. No user action is required.
+2023-01-15 09:39:17.84 spid12s     The resource database build version is 15.00.4261. This is an informational message only. No user action is required.
+2023-01-15 09:39:17.86 spid12s     [3]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1.
+2023-01-15 09:39:17.86 spid12s     Starting up database 'model'.
+2023-01-15 09:39:18.01 spid26s     A self-generated certificate was successfully loaded for encryption.
+2023-01-15 09:39:18.02 spid26s     Server is listening on [ 'any' <ipv6> 1433].
+2023-01-15 09:39:18.02 spid26s     Server is listening on [ 'any' <ipv4> 1433].
+2023-01-15 09:39:18.02 Server      Server is listening on [ ::1 <ipv6> 1434].
+2023-01-15 09:39:18.02 Server      Server is listening on [ 127.0.0.1 <ipv4> 1434].
+2023-01-15 09:39:18.02 Server      Dedicated admin connection support was established for listening locally on port 1434.
+2023-01-15 09:39:18.03 spid26s     Server is listening on [ ::1 <ipv6> 1431].
+2023-01-15 09:39:18.03 spid26s     Server is listening on [ 127.0.0.1 <ipv4> 1431].
+2023-01-15 09:39:18.03 spid26s     SQL Server is now ready for client connections. This is an informational message; no user action is required.
+2023-01-15 09:39:18.28 spid30s     Parallel redo is started for database 'ServiceManagement' with worker pool size [8].
+2023-01-15 09:39:18.32 spid9s      Recovery is writing a checkpoint in database 'msdb' (4). This is an informational message only. No user action is required.
+2023-01-15 09:39:18.33 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-15 09:39:18.33 Logon       Login failed for user 'remote_access'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.2]
+2023-01-15 09:39:18.35 spid12s     Clearing tempdb database.
+2023-01-15 09:39:18.37 spid30s     Parallel redo is shutdown for database 'ServiceManagement' with worker pool size [8].
+2023-01-15 09:39:19.41 spid12s     [2]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1.
+2023-01-15 09:39:19.41 spid12s     Starting up database 'tempdb'.
+2023-01-15 09:39:23.60 spid12s     The tempdb database has 8 data file(s).
+2023-01-15 09:39:23.61 spid18s     The Service Broker endpoint is in disabled or stopped state.
+2023-01-15 09:39:23.61 spid18s     The Database Mirroring endpoint is in disabled or stopped state.
+2023-01-15 09:39:23.62 spid18s     Service Broker manager has started.
+2023-01-15 09:39:23.62 spid9s      Recovery is complete. This is an informational message only. No user action is required.
+2023-01-15 09:40:08.70 spid51      [5]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1.
+2023-01-15 09:40:08.70 spid51      Starting up database 'ServiceManagement'.
+2023-01-15 09:40:09.01 spid51      Parallel redo is started for database 'ServiceManagement' with worker pool size [8].
+2023-01-15 09:40:09.04 spid51      Parallel redo is shutdown for database 'ServiceManagement' with worker pool size [8].
+2023-01-15 09:41:16.24 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-15 09:41:16.24 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-15 09:44:21.98 spid60      Attempting to load library 'xplog70.dll' into memory. This is an informational message only. No user action is required.
+2023-01-15 09:44:22.00 spid60      Using 'xplog70.dll' version '2019.150.4261' to execute extended stored procedure 'xp_msver'. This is an informational message only; no user action is required.
+2023-01-15 09:46:16.51 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-15 09:46:16.51 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-15 09:51:16.60 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-15 09:51:16.60 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-15 09:56:16.69 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-15 09:56:16.69 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-15 10:01:16.80 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-15 10:01:16.80 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-15 10:06:16.91 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-15 10:06:16.91 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-15 10:11:17.01 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-15 10:11:17.01 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-15 10:16:17.12 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-15 10:16:17.12 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-15 10:21:17.22 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-15 10:21:17.22 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-15 10:26:17.31 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-15 10:26:17.31 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-15 10:31:17.41 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-15 10:31:17.41 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-15 10:36:17.51 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-15 10:36:17.51 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-15 10:41:17.62 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-15 10:41:17.62 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-15 10:46:17.72 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-15 10:46:17.72 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-15 10:51:17.82 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-15 10:51:17.82 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-15 10:56:17.91 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-15 10:56:17.91 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-15 11:01:18.05 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-15 11:01:18.05 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-15 11:06:18.17 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-15 11:06:18.17 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-15 11:11:18.28 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-15 11:11:18.28 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-15 11:16:18.39 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-15 11:16:18.39 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-15 11:21:18.50 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-15 11:21:18.50 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-15 11:26:18.60 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-15 11:26:18.60 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-15 11:31:18.68 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-15 11:31:18.68 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-15 11:36:18.80 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-15 11:36:18.80 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-15 11:41:19.00 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-15 11:41:19.00 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-15 11:46:19.12 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-15 11:46:19.12 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-15 11:51:19.25 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-15 11:51:19.25 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-15 11:56:19.37 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-15 11:56:19.37 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-15 12:01:19.48 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-15 12:01:19.48 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-15 12:06:19.59 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-15 12:06:19.59 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-15 12:11:19.70 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-15 12:11:19.70 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-15 12:16:19.82 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-15 12:16:19.82 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-15 12:21:19.93 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-15 12:21:19.93 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-15 12:26:20.03 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-15 12:26:20.03 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-15 12:31:20.16 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-15 12:31:20.16 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-15 12:36:20.28 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-15 12:36:20.28 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-15 12:41:20.39 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-15 12:41:20.39 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-15 12:46:20.48 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-15 12:46:20.48 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-15 12:51:20.57 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-15 12:51:20.57 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-15 12:56:20.66 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-15 12:56:20.66 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-15 13:01:20.75 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-15 13:01:20.75 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-15 14:17:22.37 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-15 14:17:22.37 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-15 14:22:22.48 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-15 14:22:22.48 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-15 14:27:22.56 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-15 14:27:22.56 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-15 14:32:22.65 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-15 14:32:22.65 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-15 14:37:22.75 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-15 14:37:22.75 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-15 14:42:22.84 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-15 14:42:22.84 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-15 14:47:22.92 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-15 14:47:22.92 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-15 14:52:23.00 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-15 14:52:23.00 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-15 14:57:23.09 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-15 14:57:23.09 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-15 15:00:54.23 Logon       Error: 18456, Severity: 14, State: 8.
+2023-01-15 15:00:54.23 Logon       Login failed for user 'SA'. Reason: Password did not match that for the login provided. [CLIENT: 172.19.0.1]
+2023-01-15 15:01:02.94 spid55      Attempting to load library 'xpsqlbot.dll' into memory. This is an informational message only. No user action is required.
+2023-01-15 15:01:02.95 spid55      Using 'xpsqlbot.dll' version '2019.150.4261' to execute extended stored procedure 'xp_qv'. This is an informational message only; no user action is required.
+2023-01-15 15:01:07.38 spid55      [5]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1.
+2023-01-15 15:01:07.38 spid55      Starting up database 'ServiceManagement'.
+2023-01-15 15:01:07.69 spid55      Parallel redo is started for database 'ServiceManagement' with worker pool size [8].
+2023-01-15 15:01:07.72 spid55      Parallel redo is shutdown for database 'ServiceManagement' with worker pool size [8].
+2023-01-15 15:01:08.70 spid55      [5]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1.
+2023-01-15 15:01:08.70 spid55      Starting up database 'ServiceManagement'.
+2023-01-15 15:01:09.01 spid55      Parallel redo is started for database 'ServiceManagement' with worker pool size [8].
+2023-01-15 15:01:09.04 spid55      Parallel redo is shutdown for database 'ServiceManagement' with worker pool size [8].
+2023-01-15 15:01:10.60 spid55      [5]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1.
+2023-01-15 15:01:10.60 spid55      Starting up database 'ServiceManagement'.
+2023-01-15 15:01:10.90 spid55      Parallel redo is started for database 'ServiceManagement' with worker pool size [8].
+2023-01-15 15:01:10.92 spid55      Parallel redo is shutdown for database 'ServiceManagement' with worker pool size [8].
+2023-01-15 15:01:17.06 spid55      [5]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1.
+2023-01-15 15:01:17.06 spid55      Starting up database 'ServiceManagement'.
+2023-01-15 15:01:17.36 spid55      Parallel redo is started for database 'ServiceManagement' with worker pool size [8].
+2023-01-15 15:01:17.38 spid55      Parallel redo is shutdown for database 'ServiceManagement' with worker pool size [8].
+2023-01-15 15:01:25.79 spid52      [5]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1.
+2023-01-15 15:01:25.79 spid52      Starting up database 'ServiceManagement'.
+2023-01-15 15:01:26.07 spid52      Parallel redo is started for database 'ServiceManagement' with worker pool size [8].
+2023-01-15 15:01:26.09 spid52      Parallel redo is shutdown for database 'ServiceManagement' with worker pool size [8].
+2023-01-15 15:01:30.76 spid57      Attempting to load library 'xpstar.dll' into memory. This is an informational message only. No user action is required.
+2023-01-15 15:01:31.25 spid57      Using 'xpstar.dll' version '2019.150.4261' to execute extended stored procedure 'xp_instance_regread'. This is an informational message only; no user action is required.
+2023-01-15 15:02:23.19 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-15 15:02:23.19 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-15 15:07:23.32 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-15 15:07:23.32 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-15 15:12:23.42 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-15 15:12:23.42 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-15 15:17:23.52 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-15 15:17:23.52 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-15 15:22:23.63 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-15 15:22:23.63 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-15 15:27:23.74 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-15 15:27:23.74 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-15 15:32:23.85 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-15 15:32:23.85 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-15 15:37:23.98 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-15 15:37:23.98 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-15 15:42:24.10 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-15 15:42:24.10 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-15 15:47:24.22 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-15 15:47:24.22 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-15 15:52:24.33 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-15 15:52:24.33 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-15 15:57:24.46 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-15 15:57:24.46 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-15 16:02:24.60 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-15 16:02:24.60 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-15 16:07:24.70 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-15 16:07:24.70 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-16 02:36:32.24 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-16 02:36:32.24 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-16 02:41:32.37 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-16 02:41:32.37 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-16 02:46:32.45 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-16 02:46:32.45 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-16 02:51:32.55 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-16 02:51:32.55 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-16 02:56:32.63 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-16 02:56:32.63 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-16 03:01:32.71 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-16 03:01:32.71 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-16 03:06:32.81 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-16 03:06:32.81 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-16 03:11:32.89 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-16 03:11:32.89 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-16 03:16:32.97 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-16 03:16:32.97 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-16 03:21:33.07 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-16 03:21:33.07 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-16 03:26:33.15 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-16 03:26:33.15 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-16 03:31:33.24 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-16 03:31:33.24 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-16 03:36:33.32 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-16 03:36:33.32 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-16 03:41:33.41 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-16 03:41:33.41 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-16 03:46:33.50 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-16 03:46:33.50 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-16 03:51:33.58 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-16 03:51:33.58 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-16 03:56:33.68 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-16 03:56:33.68 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-16 04:01:33.79 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-16 04:01:33.79 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-16 04:06:33.89 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-16 04:06:33.89 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-16 04:11:33.97 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-16 04:11:33.97 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-16 04:16:34.06 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-16 04:16:34.06 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-16 04:21:34.14 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-16 04:21:34.14 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-16 04:26:34.23 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-16 04:26:34.23 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-16 04:31:34.33 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-16 04:31:34.33 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-16 04:36:34.46 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-16 04:36:34.46 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-16 04:41:34.55 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-16 04:41:34.55 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-16 04:46:34.64 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-16 04:46:34.64 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-16 04:51:34.73 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-16 04:51:34.73 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-16 04:56:34.81 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-16 04:56:34.81 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-16 05:01:34.91 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-16 05:01:34.91 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-16 05:06:35.02 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-16 05:06:35.02 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-16 05:11:35.11 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-16 05:11:35.11 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-16 05:16:35.20 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-16 05:16:35.20 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-16 05:21:35.29 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-16 05:21:35.29 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-16 05:26:35.38 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-16 05:26:35.38 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-16 05:31:35.47 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-16 05:31:35.47 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-16 05:36:35.57 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-16 05:36:35.57 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-16 05:41:35.65 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-16 05:41:35.65 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-16 05:46:35.75 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-16 05:46:35.75 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-16 05:51:35.83 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-16 05:51:35.83 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-16 05:56:35.91 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-16 05:56:35.91 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-16 06:01:36.03 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-16 06:01:36.03 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-16 06:06:36.14 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-16 06:06:36.14 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
+2023-01-16 06:11:36.23 Logon       Error: 18456, Severity: 14, State: 5.
+2023-01-16 06:11:36.23 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.19.0.1]
